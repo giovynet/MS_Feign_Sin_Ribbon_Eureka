@@ -1,0 +1,14 @@
+spring:
+  
+   application:
+     name: spring boot feign producer
+    
+   # Excluye la autoconfiguración de datasource realizada por Spring Boot... ya que no vamos a usar ninguna DB. 
+   autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration  
+      
+server:
+   port: 8087
+
+   
+ 
